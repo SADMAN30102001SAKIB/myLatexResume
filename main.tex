@@ -1,0 +1,180 @@
+\documentclass[
+    % Uncomment the following for more compact font size and spacing
+    % compact
+]{llresume}
+
+% Use the following commands to change the document's colors
+\definecolor{accentcolor}{HTML}{8D281E}
+\definecolor{fillcolor}{HTML}{E4EDDE}
+\definecolor{headingcolor}{HTML}{1C6336}
+
+% Define custom commands, if needed
+\renewcommand{\emph}[1]{{\bfseries\color{accentcolor}#1}}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% Personal information
+%
+% For contacts and other info, you can use \infoGeneric{<icon>}{<text>}[<link>]
+% to add a line of information, or one of the following shortcuts in the form
+% \info<Shortcut>{<text>}[<link>]:
+%
+% \infoEmail          \infoDate           \infoLinkedin       \infoBook
+% \infoPhone          \infoPlace          \infoGithub         \infoAuthor
+% \infoAddress        \infoLink           \infoInstagram      \infoTools
+% \infoBirthday       \infoHomepage       \infoFlickr
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+% First name, last name, and optional pronouns
+\name{Sadman}{Sakib}[He/Him]
+
+% Profile photo
+\photo{photo.png}
+
+% Contacts and other info
+\personalinfo{
+    \infoBirthday{30/10/2001}
+    \infoAddress{Kalibari, Thakurgaon}
+    \infoEmail{evan30102001flair@gmail.com}[mailto:evan30102001flair@gmail.com]
+    \infoHomepage{myWebGame}[https://sadman30102001sakib.github.io/crossRoad]
+    \infoLinkedin{myLinkedIn}[https://www.linkedin.com/in/sadman-sakib-32695124a/]
+    \infoGithub{myGithub}[https://github.com/SADMAN30102001SAKIB]
+}
+
+% Tag line
+\tagline{
+    My name is Clio Sadman Sakib I am a \emph{MERN Stack developer} with experience on \emph{Front-End, Back-End and DevOps}. I make sure the responsiveness and the security of a web app.
+}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% Main pane
+%
+% Each section of the main pane is enclosed within an environment of the form
+% \begin{mainsection}{<section title>} ... \end{mainsection}
+%
+% Available commands:
+%
+% \entryJob{<title>}[<descr>]{<location>}{<date>}
+% \entryPub{<title>}[<descr>]{<authors>}{<journal/conference>}{<DOI/link>}
+% \entrySkills[<title>]{<list of skills>}
+% \entryTags[<title>]{<list of tags>}
+% \entryGeneric{<title>}[<descr>][<info>][<info>][<info>]
+%
+% Skill and tag commands:
+%
+% \skill{<name>}{<score>}
+% \simpleskill[<icon>]{<name>}
+% \boxedtag[<icon>]{<name>}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\begin{document}
+
+\makeheader
+
+\begin{mainpane}
+    \begin{mainsection}{Education}
+        \entryJob
+            {BSc in Computer Science \& Engineering}
+            [Learning Chemistry in CSE :)]
+            {Rajshahi University of Engineering \& Technology}
+            {2022-2026}
+    \end{mainsection}
+
+    \begin{mainsection}{Projects}
+        \entryGeneric
+            {flappyBird Web Game}
+            [\infoFlickr
+                {flappyBirdGame}
+                [https://sadman30102001sakib.github.io/flappyBird]]
+        \entryGeneric
+            {snakeMania Web Game}
+            [\infoFlickr
+                {snakeManiaGame}
+                [https://sadman30102001sakib.github.io/snakeMania]]
+        \entryGeneric
+            {rescueDoggo Web Game}
+            [\infoFlickr
+                {rescueDoggoGame}
+                [https://sadman30102001sakib.github.io/rescueDoggo]]
+        \entryGeneric
+            {crossRoad Web Game}
+            [\infoFlickr
+                {crossRoadGame}
+                [https://sadman30102001sakib.github.io/crossRoad]]
+        \entryGeneric
+            {ESP Web Server}
+            [\infoFlickr
+                {ESP Web Server}
+                [https://github.com/SADMAN30102001SAKIB/ESP-Server-Web-App]]
+        \entryGeneric
+            {My ChatGPT}
+            [\infoFlickr
+                {sadmanGPT}
+                [https://github.com/SADMAN30102001SAKIB/sadmanGPT]]
+        \entryGeneric
+            {My Web Browser}
+            [\infoFlickr
+                {sadmanWebBrowser}
+                [https://github.com/SADMAN30102001SAKIB/sadmanWebBrowser]]
+        \entryGeneric
+            {Spotify Clone}
+            [\infoFlickr
+                {Spotify-Clone}
+                [https://github.com/SADMAN30102001SAKIB/Spotify-Clone]]
+    \end{mainsection}
+
+    \begin{mainsection}{Work experience}
+        \entryJob
+            {Made Personal Projects}
+            [Mostly in Web Technology]
+            {Home}
+            {December 2019 -- present}
+    \end{mainsection}
+
+    \begin{mainsection}{Skills \& languages}
+        \entrySkills[Computer]{
+            \skill{TypeScript}{2}
+            \skill{React}{2}
+            \skill{Next.js}{1}
+            \skill{Node.js}{2}
+            \skill{MongoDB}{2}
+            \skill{mySQL}{2}
+            \skill{PHP}{2}
+            \skill{DevOps}{1}
+            \skill{C}{2}
+            \skill{C++}{2}
+            \skill{Python}{1}
+            \skill{Java}{1}
+        }
+        \entrySkills[Other tools]{
+            \simpleskill{VS Code}
+            \simpleskill{Replit}
+            \simpleskill{Git Bash}
+            \simpleskill{Browser Dev Tools}
+            \simpleskill{Jenkins}
+            \simpleskill{Ansible}
+            \simpleskill{Docker}
+            \simpleskill{Kubernetes}
+            \simpleskill{Prometheus}
+            \simpleskill{ELK Stack}
+            \simpleskill{Spinnaker}
+            \simpleskill{Semgrep}
+            \simpleskill{AWS \& Firebase}
+            \simpleskill{Digital Ocean \& Linode}
+            \simpleskill{Slack}
+            \simpleskill{Arduino IDE}
+        }
+        \entrySkills[Languages]{
+            \skill{English}{2}
+            \skill{Bnagla}{3}
+            \skill{Hindi}{1}
+        }
+    \end{mainsection}
+
+    \begin{mainsection}{Personal interests}
+        \entryTags{
+            \boxedtag{Robotics}
+        }
+    \end{mainsection}
+\end{mainpane}
+
+\end{document}
