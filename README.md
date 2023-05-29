@@ -12,5 +12,5 @@ You can edit and compile the résumé on [Overleaf][overleaf] or clone this
 repository and compile it yourself. Look into [main.tex](./main.tex) for a
 comprehensive example and for how to use this class.
 
-## overleaf: 
+## Click here to use this: 
 https://www.overleaf.com/latex/templates/lean-latex-resume/sjbtgfrzjkdw
