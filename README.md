@@ -8,7 +8,7 @@ You can find this project on GitHub at
 
 ## Usage
 
-You can edit and compile the résumé on [Overleaf][overleaf] or clone this
+You can edit and compile the résumé on [][overleaf] or clone this
 repository and compile it yourself. Look into [main.tex](./main.tex) for a
 comprehensive example and for how to use this class.
 
